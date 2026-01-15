@@ -34,3 +34,5 @@ studentList.forEach((student: Student) => {
   row.append(firstnameCell, localisationCell);
   table.append(row);
 });
+
+document.body.append(table);
